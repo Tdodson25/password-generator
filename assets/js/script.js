@@ -46,6 +46,20 @@ if (
   alert('You must pick at least one option, Please try again.');
   return null;
 }
+
+var passwordOptions = {
+  length: length,
+  hasUpperCaseChar: hasUpperCaseChar,
+  hasLowerCaseChar: hasLowerCaseChar,
+  hasNumberChar: hasNumberChar,
+  hasSpecicalChar,
+};
+
+return passwordOptions;
+}
+
+function generatePassword() {
+  
 }
 
 
